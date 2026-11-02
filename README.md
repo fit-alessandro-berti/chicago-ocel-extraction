@@ -18,6 +18,8 @@ and the [extraction model](docs/MODEL.md) before interpreting results.
 Machine-readable [validation](reports/validation.json),
 [source-quality](reports/source-quality.json), and
 [process-mining](reports/process-mining.json) reports accompany the logs.
+A [Zenodo dataset description](docs/ZENODO_DESCRIPTION.md) describes both files
+for publication together in one dataset record.
 
 ## Load the logs
 
