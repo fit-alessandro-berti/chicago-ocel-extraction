@@ -1,0 +1,36 @@
+[
+  {
+    "file": "boston-inspections-history.json.gz",
+    "sha256": "2cbe70096df0f773edcb9704b249f728ff8bd4f12350574690b65d25da081c80",
+    "schema": "pass (upstream string-only value constraint corrected to OCEL typed scalars)",
+    "semantic_integrity": "pass",
+    "events": 220270,
+    "objects": 236108,
+    "event_object_relations": 617394,
+    "object_object_relations": 397124,
+    "schema_sha256": "55508e4e2b016367f613965b12d131af99eeb3bf9922c45e66b5c189acc20f34",
+    "source_reconciliation": {
+      "status": "pass",
+      "source_rows_reconciled": 900857,
+      "inspection_groups_reconciled": 220270,
+      "finding_rows_reconciled": 0
+    }
+  },
+  {
+    "file": "boston-inspections-findings-2022-2025.json.gz",
+    "sha256": "725b70ec79061daf28681b12555dead081176458490dd16948c6c53c60837313",
+    "schema": "pass (upstream string-only value constraint corrected to OCEL typed scalars)",
+    "semantic_integrity": "pass",
+    "events": 60304,
+    "objects": 239811,
+    "event_object_relations": 340292,
+    "object_object_relations": 279988,
+    "schema_sha256": "55508e4e2b016367f613965b12d131af99eeb3bf9922c45e66b5c189acc20f34",
+    "source_reconciliation": {
+      "status": "pass",
+      "source_rows_reconciled": 189891,
+      "inspection_groups_reconciled": 60304,
+      "finding_rows_reconciled": 167255
+    }
+  }
+]

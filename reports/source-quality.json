@@ -1,0 +1,83 @@
+{
+  "counts": {
+    "source_rows": 907385,
+    "excluded_rows": 6528,
+    "missing_or_invalid_result_time": 6398,
+    "exact_duplicate_rows": 0,
+    "accepted_rows": 900857,
+    "inspection_groups": 220270,
+    "inspection_groups_without_property": 43416,
+    "distinct_finding_rows": 841583,
+    "distinct_rows_without_finding_code": 59274,
+    "conflicting_results_at_same_license_time_rows": 88,
+    "conflicting_results_at_same_license_time_groups": 20,
+    "source_result_data_error_rows": 42,
+    "source_result_data_error_groups": 42
+  },
+  "profile": {
+    "source_result_codes": {
+      "HE_Fail": 378960,
+      "HE_Filed": 93737,
+      "HE_NotReq": 24077,
+      "HE_Pass": 289305,
+      "HE_OutBus": 2554,
+      "HE_FailExt": 77570,
+      "HE_Hearing": 28049,
+      "HE_VolClos": 3144,
+      "HE_TSOP": 7722,
+      "HE_Hold": 17,
+      "Pass": 964,
+      "HE_Closure": 709,
+      "DATAERR": 42,
+      "Fail": 238,
+      "HE_FAILNOR": 158,
+      "HE_Misc": 128,
+      "Closed": 2,
+      "NoViol": 1,
+      "Failed": 6,
+      "PassViol": 2
+    },
+    "source_years": {
+      "2018": 52875,
+      "2019": 44549,
+      "2022": 57397,
+      "2017": 43516,
+      "2010": 39441,
+      "2011": 37293,
+      "2024": 46981,
+      "2023": 41555,
+      "2025": 43958,
+      "2026": 41670,
+      "2021": 45038,
+      "2013": 46783,
+      "2014": 49091,
+      "2015": 47970,
+      "2016": 54485,
+      "2020": 31643,
+      "2012": 56011,
+      "2007": 27470,
+      "2008": 48637,
+      "2009": 44587,
+      "2006": 37
+    },
+    "violation_time_vs_result": {
+      "equal": 731657,
+      "missing_or_invalid": 59349,
+      "after": 105789,
+      "before": 4192
+    },
+    "status_time_vs_result": {
+      "missing_or_invalid": 526483,
+      "after": 372595,
+      "before": 1124,
+      "equal": 785
+    },
+    "source_violation_status": {
+      "Fail": 463799,
+      "<missing>": 67837,
+      "Pass": 375749
+    }
+  },
+  "snapshot_manifest_sha256": "60cb0fdeef2162e7b325b3ce26151b2363d7ebed54c734ebc29b01db918a6c10",
+  "snapshot_at": "2026-11-02T07:15:53.742875Z"
+}

@@ -1,6 +1,7 @@
 """Freeze complete CKAN API responses, including source row identifiers."""
 import gzip
 import hashlib
+import io
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,10 +30,9 @@ def write_json(path, value):
 def write_gzip(path, value):
     """Deterministic gzip: no wall-clock timestamp or filename in header."""
     Path(path).parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "wb") as raw, gzip.GzipFile(fileobj=raw, mode="wb", mtime=0) as f:
-        encoder = json.JSONEncoder(ensure_ascii=False, separators=(",", ":"), allow_nan=False)
-        for chunk in encoder.iterencode(value):
-            f.write(chunk.encode("utf-8"))
+    with open(path, "wb") as raw, gzip.GzipFile(filename="", fileobj=raw, mode="wb", mtime=0) as f:
+        with io.TextIOWrapper(f, encoding="utf-8") as text:
+            json.dump(value, text, ensure_ascii=False, separators=(",", ":"), allow_nan=False)
 
 
 def fetch(root=Path("data/raw"), page_size=50000):

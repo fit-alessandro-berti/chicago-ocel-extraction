@@ -1,0 +1,40 @@
+{
+  "snapshot_manifest_sha256": "60cb0fdeef2162e7b325b3ce26151b2363d7ebed54c734ebc29b01db918a6c10",
+  "artifacts": [
+    {
+      "file": "boston-inspections-history.json.gz",
+      "sha256": "2cbe70096df0f773edcb9704b249f728ff8bd4f12350574690b65d25da081c80",
+      "bytes": 19143213,
+      "events": 220270,
+      "objects": 236108,
+      "event_types": 18,
+      "object_counts": {
+        "Inspection": 220270,
+        "FoodLicense": 11324,
+        "Property": 4514
+      },
+      "source_rows": 900857,
+      "start": "2006-04-04T12:49:18Z",
+      "end": "2026-10-31T12:09:40Z",
+      "conflicting_snapshot_fields_omitted_per_license": {}
+    },
+    {
+      "file": "boston-inspections-findings-2022-2025.json.gz",
+      "sha256": "725b70ec79061daf28681b12555dead081176458490dd16948c6c53c60837313",
+      "bytes": 10714180,
+      "events": 60304,
+      "objects": 239811,
+      "event_types": 13,
+      "object_counts": {
+        "Finding": 167255,
+        "Inspection": 60304,
+        "FoodLicense": 8341,
+        "Property": 3911
+      },
+      "source_rows": 189891,
+      "start": "2022-01-03T13:33:07Z",
+      "end": "2025-12-31T23:00:34Z",
+      "conflicting_snapshot_fields_omitted_per_license": {}
+    }
+  ]
+}

@@ -1,0 +1,2035 @@
+[
+  {
+    "file": "boston-inspections-history.json.gz",
+    "sha256": "2cbe70096df0f773edcb9704b249f728ff8bd4f12350574690b65d25da081c80",
+    "statistics": {
+      "events": 220270,
+      "licenses": 11324,
+      "activity_counts": {
+        "HE_Fail": 64877,
+        "HE_TSOP": 823,
+        "HE_Pass": 91098,
+        "Fail": 23,
+        "Pass": 222,
+        "HE_Filed": 25448,
+        "HE_NotReq": 21917,
+        "HE_FailExt": 10615,
+        "HE_Hearing": 3397,
+        "HE_OutBus": 1065,
+        "HE_FAILNOR": 23,
+        "HE_Hold": 5,
+        "HE_Misc": 77,
+        "HE_Closure": 114,
+        "Failed": 1,
+        "HE_VolClos": 562,
+        "Closed": 2,
+        "NoViol": 1
+      },
+      "events_per_license": {
+        "n": 11324,
+        "median": 13.0,
+        "p10": 2.0,
+        "p90": 47.0,
+        "max": 138
+      },
+      "licenses_with_multiple_events": 10593,
+      "distinct_license_variants": 8343,
+      "top_variants": [
+        {
+          "activities": [
+            "HE_NotReq"
+          ],
+          "licenses": 437
+        },
+        {
+          "activities": [
+            "HE_Pass",
+            "HE_NotReq"
+          ],
+          "licenses": 263
+        },
+        {
+          "activities": [
+            "HE_Pass"
+          ],
+          "licenses": 237
+        },
+        {
+          "activities": [
+            "HE_Fail",
+            "HE_Pass",
+            "HE_NotReq"
+          ],
+          "licenses": 127
+        },
+        {
+          "activities": [
+            "HE_Fail",
+            "HE_Pass"
+          ],
+          "licenses": 100
+        },
+        {
+          "activities": [
+            "HE_Pass",
+            "HE_Pass",
+            "HE_NotReq"
+          ],
+          "licenses": 78
+        },
+        {
+          "activities": [
+            "HE_Pass",
+            "HE_Pass"
+          ],
+          "licenses": 74
+        },
+        {
+          "activities": [
+            "HE_Pass",
+            "HE_Fail",
+            "HE_Pass",
+            "HE_NotReq"
+          ],
+          "licenses": 51
+        },
+        {
+          "activities": [
+            "HE_Fail",
+            "HE_Pass",
+            "HE_Fail",
+            "HE_Pass",
+            "HE_NotReq"
+          ],
+          "licenses": 49
+        },
+        {
+          "activities": [
+            "HE_NotReq",
+            "HE_NotReq"
+          ],
+          "licenses": 49
+        }
+      ],
+      "license_directly_follows": [
+        {
+          "from": "HE_Fail",
+          "to": "HE_Pass",
+          "count": 45253
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Fail",
+          "count": 39977
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Pass",
+          "count": 22810
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_NotReq",
+          "count": 13351
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_Fail",
+          "count": 11854
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Filed",
+          "count": 9157
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_FailExt",
+          "count": 8015
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_Filed",
+          "count": 7236
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Fail",
+          "count": 7047
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Pass",
+          "count": 6636
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_Filed",
+          "count": 4665
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_Pass",
+          "count": 4312
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Pass",
+          "count": 4273
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_NotReq",
+          "count": 3525
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_NotReq",
+          "count": 2805
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_Hearing",
+          "count": 2499
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_Pass",
+          "count": 2082
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_FailExt",
+          "count": 1701
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Filed",
+          "count": 1633
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Filed",
+          "count": 1213
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_Fail",
+          "count": 856
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_NotReq",
+          "count": 611
+        },
+        {
+          "from": "HE_OutBus",
+          "to": "HE_NotReq",
+          "count": 593
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Hearing",
+          "count": 534
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_Filed",
+          "count": 493
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_FailExt",
+          "count": 441
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_OutBus",
+          "count": 440
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_Pass",
+          "count": 438
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_TSOP",
+          "count": 407
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_Pass",
+          "count": 362
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_VolClos",
+          "count": 331
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_Hearing",
+          "count": 208
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Fail",
+          "count": 195
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_NotReq",
+          "count": 171
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_TSOP",
+          "count": 143
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_OutBus",
+          "count": 142
+        },
+        {
+          "from": "Pass",
+          "to": "HE_Fail",
+          "count": 126
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_OutBus",
+          "count": 118
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_OutBus",
+          "count": 117
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_FailExt",
+          "count": 112
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_FailExt",
+          "count": 111
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_FailExt",
+          "count": 103
+        },
+        {
+          "from": "HE_OutBus",
+          "to": "HE_OutBus",
+          "count": 84
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_FailExt",
+          "count": 77
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_TSOP",
+          "count": 73
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_Filed",
+          "count": 71
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_VolClos",
+          "count": 71
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Hearing",
+          "count": 64
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_Fail",
+          "count": 59
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Closure",
+          "count": 58
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_NotReq",
+          "count": 58
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_TSOP",
+          "count": 57
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_Pass",
+          "count": 55
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_TSOP",
+          "count": 54
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_VolClos",
+          "count": 54
+        },
+        {
+          "from": "HE_Fail",
+          "to": "Pass",
+          "count": 50
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_NotReq",
+          "count": 49
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_Fail",
+          "count": 44
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_VolClos",
+          "count": 40
+        },
+        {
+          "from": "Pass",
+          "to": "HE_Pass",
+          "count": 37
+        },
+        {
+          "from": "HE_OutBus",
+          "to": "HE_Pass",
+          "count": 36
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_VolClos",
+          "count": 36
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Misc",
+          "count": 36
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_OutBus",
+          "count": 35
+        },
+        {
+          "from": "HE_OutBus",
+          "to": "HE_Fail",
+          "count": 35
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Hearing",
+          "count": 34
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_Hearing",
+          "count": 27
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_Closure",
+          "count": 27
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_TSOP",
+          "count": 26
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_OutBus",
+          "count": 24
+        },
+        {
+          "from": "Pass",
+          "to": "HE_NotReq",
+          "count": 24
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_TSOP",
+          "count": 23
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_FailExt",
+          "count": 22
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_VolClos",
+          "count": 21
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_Pass",
+          "count": 21
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_NotReq",
+          "count": 20
+        },
+        {
+          "from": "Pass",
+          "to": "HE_Filed",
+          "count": 20
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_NotReq",
+          "count": 19
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_Fail",
+          "count": 18
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_Filed",
+          "count": 16
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_FailExt",
+          "count": 16
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_Misc",
+          "count": 15
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_FAILNOR",
+          "count": 13
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_NotReq",
+          "count": 13
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_OutBus",
+          "count": 13
+        },
+        {
+          "from": "Fail",
+          "to": "Pass",
+          "count": 12
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_Closure",
+          "count": 10
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_Filed",
+          "count": 10
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_Fail",
+          "count": 10
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_Filed",
+          "count": 10
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_Fail",
+          "count": 9
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_Hearing",
+          "count": 8
+        },
+        {
+          "from": "HE_FAILNOR",
+          "to": "HE_Fail",
+          "count": 7
+        },
+        {
+          "from": "Fail",
+          "to": "HE_Fail",
+          "count": 7
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Misc",
+          "count": 7
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_VolClos",
+          "count": 7
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_Hearing",
+          "count": 6
+        },
+        {
+          "from": "HE_OutBus",
+          "to": "HE_Filed",
+          "count": 6
+        },
+        {
+          "from": "HE_Pass",
+          "to": "Pass",
+          "count": 6
+        },
+        {
+          "from": "HE_FAILNOR",
+          "to": "HE_Pass",
+          "count": 6
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_Misc",
+          "count": 5
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_Hearing",
+          "count": 3
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Closure",
+          "count": 3
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "Pass",
+          "count": 3
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_FAILNOR",
+          "count": 3
+        },
+        {
+          "from": "HE_Hold",
+          "to": "HE_Pass",
+          "count": 3
+        },
+        {
+          "from": "HE_FAILNOR",
+          "to": "HE_NotReq",
+          "count": 3
+        },
+        {
+          "from": "Pass",
+          "to": "HE_OutBus",
+          "count": 3
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_Misc",
+          "count": 2
+        },
+        {
+          "from": "Fail",
+          "to": "HE_Filed",
+          "count": 2
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_Misc",
+          "count": 2
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Closure",
+          "count": 2
+        },
+        {
+          "from": "Pass",
+          "to": "Fail",
+          "count": 2
+        },
+        {
+          "from": "Pass",
+          "to": "HE_TSOP",
+          "count": 2
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_FAILNOR",
+          "count": 2
+        },
+        {
+          "from": "HE_Filed",
+          "to": "Pass",
+          "count": 2
+        },
+        {
+          "from": "Pass",
+          "to": "HE_FailExt",
+          "count": 2
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "Pass",
+          "count": 2
+        },
+        {
+          "from": "Pass",
+          "to": "HE_Hearing",
+          "count": 2
+        },
+        {
+          "from": "HE_Fail",
+          "to": "Closed",
+          "count": 2
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Misc",
+          "count": 2
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_TSOP",
+          "count": 1
+        },
+        {
+          "from": "HE_OutBus",
+          "to": "HE_TSOP",
+          "count": 1
+        },
+        {
+          "from": "Fail",
+          "to": "HE_FailExt",
+          "count": 1
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_TSOP",
+          "count": 1
+        },
+        {
+          "from": "HE_Fail",
+          "to": "Fail",
+          "count": 1
+        },
+        {
+          "from": "HE_FAILNOR",
+          "to": "HE_Hearing",
+          "count": 1
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_OutBus",
+          "count": 1
+        },
+        {
+          "from": "HE_FAILNOR",
+          "to": "HE_OutBus",
+          "count": 1
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_Misc",
+          "count": 1
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_FAILNOR",
+          "count": 1
+        },
+        {
+          "from": "HE_FAILNOR",
+          "to": "HE_FAILNOR",
+          "count": 1
+        },
+        {
+          "from": "HE_FAILNOR",
+          "to": "HE_Filed",
+          "count": 1
+        },
+        {
+          "from": "Pass",
+          "to": "Pass",
+          "count": 1
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_FailExt",
+          "count": 1
+        },
+        {
+          "from": "Fail",
+          "to": "HE_Hearing",
+          "count": 1
+        },
+        {
+          "from": "HE_Hold",
+          "to": "HE_Fail",
+          "count": 1
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_Hold",
+          "count": 1
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_Hold",
+          "count": 1
+        },
+        {
+          "from": "HE_Hold",
+          "to": "HE_TSOP",
+          "count": 1
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Hold",
+          "count": 1
+        },
+        {
+          "from": "HE_OutBus",
+          "to": "HE_VolClos",
+          "count": 1
+        },
+        {
+          "from": "Pass",
+          "to": "HE_Closure",
+          "count": 1
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_Closure",
+          "count": 1
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_OutBus",
+          "count": 1
+        },
+        {
+          "from": "Closed",
+          "to": "HE_NotReq",
+          "count": 1
+        },
+        {
+          "from": "HE_Pass",
+          "to": "NoViol",
+          "count": 1
+        },
+        {
+          "from": "NoViol",
+          "to": "HE_Fail",
+          "count": 1
+        },
+        {
+          "from": "HE_Pass",
+          "to": "Failed",
+          "count": 1
+        },
+        {
+          "from": "Failed",
+          "to": "HE_NotReq",
+          "count": 1
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_Closure",
+          "count": 1
+        },
+        {
+          "from": "Closed",
+          "to": "HE_Fail",
+          "count": 1
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_OutBus",
+          "count": 1
+        }
+      ],
+      "next_observed_result_gap_days_by_current_code": {
+        "Closed": {
+          "n": 2,
+          "median": 239.24355956597222,
+          "p10": 175.32023969097222,
+          "p90": 303.16687944097225,
+          "max": 319.1477094097222
+        },
+        "Fail": {
+          "n": 23,
+          "median": 9.0,
+          "p10": 6.511111111111111,
+          "p90": 216.0781527777778,
+          "max": 302.5947337962963
+        },
+        "Failed": {
+          "n": 1,
+          "median": 632.575,
+          "p10": 632.575,
+          "p90": 632.575,
+          "max": 632.575
+        },
+        "HE_Closure": {
+          "n": 113,
+          "median": 7.041458333333333,
+          "p10": 0.951400462962963,
+          "p90": 410.3896712962963,
+          "max": 4070.958568900463
+        },
+        "HE_FAILNOR": {
+          "n": 20,
+          "median": 19.571410185185186,
+          "p10": 0.5443344907407408,
+          "p90": 546.8355277777779,
+          "max": 1744.553935185185
+        },
+        "HE_Fail": {
+          "n": 64762,
+          "median": 7.911267361111111,
+          "p10": 6.017637731481482,
+          "p90": 15.042447916666667,
+          "max": 5122.084807326389
+        },
+        "HE_FailExt": {
+          "n": 10542,
+          "median": 10.0928125,
+          "p10": 4.763468750000001,
+          "p90": 37.64394212962943,
+          "max": 5376.075571215278
+        },
+        "HE_Filed": {
+          "n": 24807,
+          "median": 176.12237268518518,
+          "p10": 70.9607037962963,
+          "p90": 392.9670486111111,
+          "max": 4912.026173067129
+        },
+        "HE_Hearing": {
+          "n": 3388,
+          "median": 7.014033564814815,
+          "p10": 4.008530092592593,
+          "p90": 14.848342592592592,
+          "max": 3422.0691707523147
+        },
+        "HE_Hold": {
+          "n": 5,
+          "median": 2.012141203703704,
+          "p10": 0.021263888888888888,
+          "p90": 5.722240740740741,
+          "max": 6.86662037037037
+        },
+        "HE_Misc": {
+          "n": 73,
+          "median": 112.19666666666667,
+          "p10": 3.183342592592593,
+          "p90": 956.9994244722207,
+          "max": 2974.19886681713
+        },
+        "HE_NotReq": {
+          "n": 16108,
+          "median": 100.04195972222223,
+          "p10": 7.828270914351852,
+          "p90": 308.83453225694444,
+          "max": 4323.593998993056
+        },
+        "HE_OutBus": {
+          "n": 756,
+          "median": 576.2705208333333,
+          "p10": 42.99671296296296,
+          "p90": 2007.5383185532405,
+          "max": 4723.945235567129
+        },
+        "HE_Pass": {
+          "n": 86751,
+          "median": 173.01037037037037,
+          "p10": 63.085625,
+          "p90": 382.038275462963,
+          "max": 5143.9488582523145
+        },
+        "HE_TSOP": {
+          "n": 819,
+          "median": 4.023020833333334,
+          "p10": 0.7900902777777778,
+          "p90": 155.14299667824073,
+          "max": 5145.157339039351
+        },
+        "HE_VolClos": {
+          "n": 555,
+          "median": 1.831388888888889,
+          "p10": 0.6288078703703703,
+          "p90": 32.060229166666666,
+          "max": 962.2792834837962
+        },
+        "NoViol": {
+          "n": 1,
+          "median": 10.890335648148149,
+          "p10": 10.890335648148149,
+          "p90": 10.890335648148149,
+          "max": 10.890335648148149
+        },
+        "Pass": {
+          "n": 220,
+          "median": 257.8040798611111,
+          "p10": 86.8318113425926,
+          "p90": 880.8934571759257,
+          "max": 2737.1268760763887
+        }
+      },
+      "HE_Fail_cohort": {
+        "total_events": 64877,
+        "next_observed_outcomes": {
+          "HE_Pass": 45253,
+          "HE_Filed": 7236,
+          "HE_FailExt": 8015,
+          "HE_Hearing": 2499,
+          "HE_FAILNOR": 13,
+          "HE_NotReq": 611,
+          "HE_Fail": 856,
+          "HE_Closure": 10,
+          "HE_OutBus": 117,
+          "HE_TSOP": 57,
+          "HE_VolClos": 36,
+          "Pass": 50,
+          "Fail": 1,
+          "HE_Misc": 5,
+          "HE_Hold": 1,
+          "Closed": 2
+        },
+        "no_next_in_log": 115,
+        "next_is_HE_Pass_gap_days": {
+          "n": 45253,
+          "median": 7.926793981481482,
+          "p10": 6.667594907407407,
+          "p90": 14.978569444444446,
+          "max": 1246.8758680555557
+        },
+        "next_is_HE_Pass_within_30_days": 44424
+      },
+      "property_analysis": {
+        "properties": 4514,
+        "properties_with_multiple_licenses": 1817,
+        "licenses_per_property": {
+          "n": 4514,
+          "median": 1.0,
+          "p10": 1.0,
+          "p90": 3.0,
+          "max": 98
+        },
+        "events_without_property": 43416,
+        "same_property_timestamp_groups_with_ties": 1818
+      },
+      "finding_count_per_inspection": {
+        "n": 220270,
+        "median": 3.0,
+        "p10": 0.0,
+        "p90": 9.0,
+        "max": 59
+      },
+      "finding_snapshot_status_counts": {},
+      "successive_same_license_events_less_than_one_day_apart": 3354,
+      "subsecond_same_license_pairs": [
+        {
+          "from": "HE_NotReq",
+          "to": "HE_NotReq",
+          "count": 289
+        }
+      ],
+      "largest_cross_license_same_timestamp_batches": [
+        {
+          "time": "2022-03-15T19:22:42.093000Z",
+          "result": "HE_NotReq",
+          "licenses": 5752
+        },
+        {
+          "time": "2012-12-30T05:00:00Z",
+          "result": "HE_NotReq",
+          "licenses": 4566
+        },
+        {
+          "time": "2023-01-18T15:24:25.680000Z",
+          "result": "HE_NotReq",
+          "licenses": 2297
+        },
+        {
+          "time": "2013-12-30T05:00:00Z",
+          "result": "HE_NotReq",
+          "licenses": 2252
+        },
+        {
+          "time": "2024-01-03T20:23:54.493000Z",
+          "result": "HE_NotReq",
+          "licenses": 1494
+        },
+        {
+          "time": "2022-06-13T16:15:33.353000Z",
+          "result": "HE_NotReq",
+          "licenses": 1120
+        },
+        {
+          "time": "2024-10-31T19:15:21Z",
+          "result": "HE_NotReq",
+          "licenses": 670
+        },
+        {
+          "time": "2024-10-31T19:15:21.513000Z",
+          "result": "HE_NotReq",
+          "licenses": 516
+        },
+        {
+          "time": "2024-01-03T20:23:54Z",
+          "result": "HE_NotReq",
+          "licenses": 472
+        },
+        {
+          "time": "2022-09-14T17:47:39.710000Z",
+          "result": "HE_NotReq",
+          "licenses": 444
+        }
+      ],
+      "HE_NotReq_removed_sensitivity": {
+        "removed_events": 21917,
+        "remaining_events": 198353,
+        "licenses_with_only_HE_NotReq": 486,
+        "remaining_licenses": 10838,
+        "HE_Fail_next_observed_outcomes": {
+          "HE_Pass": 45526,
+          "HE_Filed": 7301,
+          "HE_FailExt": 8060,
+          "HE_Hearing": 2523,
+          "HE_FAILNOR": 13,
+          "HE_Fail": 895,
+          "HE_Closure": 10,
+          "HE_OutBus": 120,
+          "HE_TSOP": 60,
+          "HE_VolClos": 36,
+          "Pass": 51,
+          "Fail": 1,
+          "HE_Misc": 5,
+          "HE_Hold": 1,
+          "Closed": 2
+        },
+        "HE_Fail_no_next_in_filtered_log": 273,
+        "HE_Fail_next_is_HE_Pass_gap_days": {
+          "n": 45526,
+          "median": 7.929820601851851,
+          "p10": 6.6874768518518515,
+          "p90": 14.987662037037037,
+          "max": 1246.8758680555557
+        },
+        "interpretation": "Analytical projection only: bridges HE_NotReq entries; original logs retain all source result codes except DATAERR."
+      },
+      "auditable_fail_to_next_pass_examples": [
+        {
+          "license": "license:105409",
+          "first_event": "event:68ed1ba5960cfb67607ad66a",
+          "next_event": "event:9aed18d53dab23bf4cd8ce59",
+          "first_time": "2013-08-26T15:22:35Z",
+          "next_time": "2013-09-03T15:34:12Z",
+          "gap_days": 8.00806712962963
+        },
+        {
+          "license": "license:105409",
+          "first_event": "event:ba58688f1c32fa2738a86077",
+          "next_event": "event:0d4e1a33ca2c677bf5b2b5f3",
+          "first_time": "2014-03-04T19:28:29Z",
+          "next_time": "2014-03-11T18:35:01Z",
+          "gap_days": 6.9628703703703705
+        },
+        {
+          "license": "license:105589",
+          "first_event": "event:f6f770533b48b35da88aa50c",
+          "next_event": "event:1d8081536f0836a79f46d111",
+          "first_time": "2014-09-10T16:47:32Z",
+          "next_time": "2014-09-18T16:26:51Z",
+          "gap_days": 7.985636574074074
+        },
+        {
+          "license": "license:112361",
+          "first_event": "event:93ca80bc7b109562ba03cf23",
+          "next_event": "event:cdf302775006b1c5a521a044",
+          "first_time": "2021-09-30T21:10:12Z",
+          "next_time": "2021-10-14T18:52:35Z",
+          "gap_days": 13.904432870370371
+        },
+        {
+          "license": "license:112423",
+          "first_event": "event:0fa963205bc5f32f3182abaa",
+          "next_event": "event:91e7583bae97435889a252dd",
+          "first_time": "2015-03-02T18:09:44Z",
+          "next_time": "2015-03-09T16:04:36Z",
+          "gap_days": 6.913101851851851
+        }
+      ]
+    },
+    "pm4py": {
+      "version": "2.7.23.11",
+      "status": "pass",
+      "events": 220270,
+      "objects": 236108,
+      "event_object_relations": 617394,
+      "object_object_relations": 397124,
+      "license_dfg_edges": 153,
+      "note": "Import and DFG checks; not a lossless temporal-attribute round trip. PM4Py treats first object observations as baseline attributes."
+    }
+  },
+  {
+    "file": "boston-inspections-findings-2022-2025.json.gz",
+    "sha256": "725b70ec79061daf28681b12555dead081176458490dd16948c6c53c60837313",
+    "statistics": {
+      "events": 60304,
+      "licenses": 8341,
+      "activity_counts": {
+        "HE_Pass": 23069,
+        "HE_Fail": 15203,
+        "HE_Filed": 3831,
+        "HE_NotReq": 13437,
+        "HE_FailExt": 3549,
+        "HE_VolClos": 338,
+        "HE_Hearing": 689,
+        "HE_OutBus": 105,
+        "HE_TSOP": 64,
+        "HE_Closure": 6,
+        "HE_Misc": 7,
+        "NoViol": 1,
+        "HE_FAILNOR": 5
+      },
+      "events_per_license": {
+        "n": 8341,
+        "median": 5,
+        "p10": 1.0,
+        "p90": 17.0,
+        "max": 49
+      },
+      "licenses_with_multiple_events": 5578,
+      "distinct_license_variants": 3880,
+      "top_variants": [
+        {
+          "activities": [
+            "HE_NotReq"
+          ],
+          "licenses": 2642
+        },
+        {
+          "activities": [
+            "HE_NotReq",
+            "HE_NotReq"
+          ],
+          "licenses": 596
+        },
+        {
+          "activities": [
+            "HE_Pass"
+          ],
+          "licenses": 108
+        },
+        {
+          "activities": [
+            "HE_Fail",
+            "HE_Pass"
+          ],
+          "licenses": 75
+        },
+        {
+          "activities": [
+            "HE_Pass",
+            "HE_Pass"
+          ],
+          "licenses": 72
+        },
+        {
+          "activities": [
+            "HE_NotReq",
+            "HE_NotReq",
+            "HE_NotReq"
+          ],
+          "licenses": 49
+        },
+        {
+          "activities": [
+            "HE_Pass",
+            "HE_NotReq"
+          ],
+          "licenses": 46
+        },
+        {
+          "activities": [
+            "HE_Pass",
+            "HE_Fail",
+            "HE_Pass"
+          ],
+          "licenses": 38
+        },
+        {
+          "activities": [
+            "HE_Fail",
+            "HE_Pass",
+            "HE_Pass"
+          ],
+          "licenses": 28
+        },
+        {
+          "activities": [
+            "HE_Fail",
+            "HE_Pass",
+            "HE_Fail",
+            "HE_Pass"
+          ],
+          "licenses": 27
+        }
+      ],
+      "license_directly_follows": [
+        {
+          "from": "HE_Fail",
+          "to": "HE_Pass",
+          "count": 10734
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Fail",
+          "count": 7878
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_NotReq",
+          "count": 5100
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Pass",
+          "count": 5061
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Fail",
+          "count": 3986
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Pass",
+          "count": 2535
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_FailExt",
+          "count": 2527
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Pass",
+          "count": 2267
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_NotReq",
+          "count": 1967
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_Fail",
+          "count": 1356
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Filed",
+          "count": 1185
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_NotReq",
+          "count": 979
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_Filed",
+          "count": 954
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_FailExt",
+          "count": 733
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Filed",
+          "count": 730
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_Pass",
+          "count": 553
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_Hearing",
+          "count": 480
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_Filed",
+          "count": 412
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_Pass",
+          "count": 398
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_NotReq",
+          "count": 285
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Filed",
+          "count": 220
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_Pass",
+          "count": 210
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_VolClos",
+          "count": 174
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_FailExt",
+          "count": 119
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Hearing",
+          "count": 115
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_Fail",
+          "count": 115
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_NotReq",
+          "count": 88
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_Filed",
+          "count": 66
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_FailExt",
+          "count": 63
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_Hearing",
+          "count": 56
+        },
+        {
+          "from": "HE_OutBus",
+          "to": "HE_NotReq",
+          "count": 55
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_FailExt",
+          "count": 52
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_VolClos",
+          "count": 51
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_VolClos",
+          "count": 32
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_OutBus",
+          "count": 31
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Fail",
+          "count": 30
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_OutBus",
+          "count": 25
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_TSOP",
+          "count": 23
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_VolClos",
+          "count": 23
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_Pass",
+          "count": 22
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Hearing",
+          "count": 19
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_NotReq",
+          "count": 18
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_FailExt",
+          "count": 17
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_VolClos",
+          "count": 17
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_VolClos",
+          "count": 17
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_OutBus",
+          "count": 15
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_TSOP",
+          "count": 14
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_FailExt",
+          "count": 13
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_NotReq",
+          "count": 12
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_Filed",
+          "count": 11
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_OutBus",
+          "count": 11
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_TSOP",
+          "count": 10
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Hearing",
+          "count": 10
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_OutBus",
+          "count": 7
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_NotReq",
+          "count": 6
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_Filed",
+          "count": 6
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_TSOP",
+          "count": 5
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_TSOP",
+          "count": 5
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_Fail",
+          "count": 5
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_Fail",
+          "count": 4
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_FAILNOR",
+          "count": 4
+        },
+        {
+          "from": "HE_Hearing",
+          "to": "HE_VolClos",
+          "count": 4
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_FailExt",
+          "count": 4
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_FailExt",
+          "count": 3
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Misc",
+          "count": 3
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_TSOP",
+          "count": 3
+        },
+        {
+          "from": "HE_OutBus",
+          "to": "HE_Fail",
+          "count": 3
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_Hearing",
+          "count": 2
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_NotReq",
+          "count": 2
+        },
+        {
+          "from": "HE_FAILNOR",
+          "to": "HE_Pass",
+          "count": 2
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_OutBus",
+          "count": 2
+        },
+        {
+          "from": "HE_Filed",
+          "to": "HE_Closure",
+          "count": 2
+        },
+        {
+          "from": "HE_Fail",
+          "to": "HE_TSOP",
+          "count": 2
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_Fail",
+          "count": 1
+        },
+        {
+          "from": "HE_Pass",
+          "to": "HE_Misc",
+          "count": 1
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_Pass",
+          "count": 1
+        },
+        {
+          "from": "HE_FAILNOR",
+          "to": "HE_NotReq",
+          "count": 1
+        },
+        {
+          "from": "HE_NotReq",
+          "to": "HE_Closure",
+          "count": 1
+        },
+        {
+          "from": "HE_TSOP",
+          "to": "HE_Fail",
+          "count": 1
+        },
+        {
+          "from": "HE_VolClos",
+          "to": "HE_OutBus",
+          "count": 1
+        },
+        {
+          "from": "HE_Pass",
+          "to": "NoViol",
+          "count": 1
+        },
+        {
+          "from": "NoViol",
+          "to": "HE_Fail",
+          "count": 1
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_Pass",
+          "count": 1
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_FAILNOR",
+          "count": 1
+        },
+        {
+          "from": "HE_FailExt",
+          "to": "HE_Misc",
+          "count": 1
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_Misc",
+          "count": 1
+        },
+        {
+          "from": "HE_Misc",
+          "to": "HE_OutBus",
+          "count": 1
+        },
+        {
+          "from": "HE_Closure",
+          "to": "HE_NotReq",
+          "count": 1
+        }
+      ],
+      "next_observed_result_gap_days_by_current_code": {
+        "HE_Closure": {
+          "n": 6,
+          "median": 8.533159722222223,
+          "p10": 1.0186574074074073,
+          "p90": 209.6052951388889,
+          "max": 400.1072453703704
+        },
+        "HE_FAILNOR": {
+          "n": 3,
+          "median": 19.115227777777775,
+          "p10": 15.783999259259259,
+          "p90": 19.84511962962963,
+          "max": 20.027592592592594
+        },
+        "HE_Fail": {
+          "n": 15133,
+          "median": 7.107395833333333,
+          "p10": 5.982291666666667,
+          "p90": 14.059365740740741,
+          "max": 853.1525638078704
+        },
+        "HE_FailExt": {
+          "n": 3488,
+          "median": 10.773003472222221,
+          "p10": 4.074979489583333,
+          "p90": 33.86861921296297,
+          "max": 358.0630383449074
+        },
+        "HE_Filed": {
+          "n": 3342,
+          "median": 142.10489583333333,
+          "p10": 33.099694255787036,
+          "p90": 267.0770502743056,
+          "max": 684.8008333333333
+        },
+        "HE_Hearing": {
+          "n": 677,
+          "median": 6.9925347222222225,
+          "p10": 3.157229166666667,
+          "p90": 14.791858796296296,
+          "max": 611.066267511574
+        },
+        "HE_Misc": {
+          "n": 6,
+          "median": 77.00856481481482,
+          "p10": 0.004606481481481482,
+          "p90": 323.5997135011574,
+          "max": 337.0966319444444
+        },
+        "HE_NotReq": {
+          "n": 9385,
+          "median": 89.9383901273148,
+          "p10": 7.22952,
+          "p90": 295.3643833333333,
+          "max": 1203.8133322569445
+        },
+        "HE_OutBus": {
+          "n": 58,
+          "median": 117.59673161458335,
+          "p10": 4.935017280092593,
+          "p90": 256.5996066319445,
+          "max": 315.1704223726852
+        },
+        "HE_Pass": {
+          "n": 19475,
+          "median": 147.0282523148148,
+          "p10": 37.16871990740741,
+          "p90": 284.0402013888889,
+          "max": 1040.020300925926
+        },
+        "HE_TSOP": {
+          "n": 62,
+          "median": 7.604600694444445,
+          "p10": 1.0158761574074076,
+          "p90": 66.80878994560183,
+          "max": 1023.1432466782408
+        },
+        "HE_VolClos": {
+          "n": 327,
+          "median": 1.6625347222222222,
+          "p10": 0.5591898148148149,
+          "p90": 24.197608796296326,
+          "max": 476.1859547800926
+        },
+        "NoViol": {
+          "n": 1,
+          "median": 10.890335648148149,
+          "p10": 10.890335648148149,
+          "p90": 10.890335648148149,
+          "max": 10.890335648148149
+        }
+      },
+      "HE_Fail_cohort": {
+        "total_events": 15203,
+        "next_observed_outcomes": {
+          "HE_Pass": 10734,
+          "HE_NotReq": 285,
+          "HE_Filed": 954,
+          "HE_Hearing": 480,
+          "HE_FailExt": 2527,
+          "HE_Fail": 115,
+          "HE_VolClos": 17,
+          "HE_OutBus": 15,
+          "HE_FAILNOR": 4,
+          "HE_TSOP": 2
+        },
+        "no_next_in_log": 70,
+        "next_is_HE_Pass_gap_days": {
+          "n": 10734,
+          "median": 7.118101851851852,
+          "p10": 6.135193287037037,
+          "p90": 14.025743055555557,
+          "max": 370.5238888888889
+        },
+        "next_is_HE_Pass_within_30_days": 10588
+      },
+      "property_analysis": {
+        "properties": 3911,
+        "properties_with_multiple_licenses": 1310,
+        "licenses_per_property": {
+          "n": 3911,
+          "median": 1,
+          "p10": 1.0,
+          "p90": 3.0,
+          "max": 87
+        },
+        "events_without_property": 7875,
+        "same_property_timestamp_groups_with_ties": 1209
+      },
+      "finding_count_per_inspection": {
+        "n": 60304,
+        "median": 1.0,
+        "p10": 0.0,
+        "p90": 7.0,
+        "max": 35
+      },
+      "finding_snapshot_status_counts": {
+        "Pass": 76160,
+        "Fail": 91094,
+        "<missing>": 1
+      },
+      "successive_same_license_events_less_than_one_day_apart": 1096,
+      "subsecond_same_license_pairs": [
+        {
+          "from": "HE_NotReq",
+          "to": "HE_NotReq",
+          "count": 289
+        }
+      ],
+      "largest_cross_license_same_timestamp_batches": [
+        {
+          "time": "2022-03-15T19:22:42.093000Z",
+          "result": "HE_NotReq",
+          "licenses": 5752
+        },
+        {
+          "time": "2023-01-18T15:24:25.680000Z",
+          "result": "HE_NotReq",
+          "licenses": 2297
+        },
+        {
+          "time": "2024-01-03T20:23:54.493000Z",
+          "result": "HE_NotReq",
+          "licenses": 1494
+        },
+        {
+          "time": "2022-06-13T16:15:33.353000Z",
+          "result": "HE_NotReq",
+          "licenses": 1120
+        },
+        {
+          "time": "2024-10-31T19:15:21Z",
+          "result": "HE_NotReq",
+          "licenses": 670
+        },
+        {
+          "time": "2024-10-31T19:15:21.513000Z",
+          "result": "HE_NotReq",
+          "licenses": 516
+        },
+        {
+          "time": "2024-01-03T20:23:54Z",
+          "result": "HE_NotReq",
+          "licenses": 472
+        },
+        {
+          "time": "2022-09-14T17:47:39.710000Z",
+          "result": "HE_NotReq",
+          "licenses": 444
+        },
+        {
+          "time": "2023-01-18T15:24:25Z",
+          "result": "HE_NotReq",
+          "licenses": 257
+        },
+        {
+          "time": "2022-03-15T19:22:42Z",
+          "result": "HE_NotReq",
+          "licenses": 153
+        }
+      ],
+      "HE_NotReq_removed_sensitivity": {
+        "removed_events": 13437,
+        "remaining_events": 46867,
+        "licenses_with_only_HE_NotReq": 3302,
+        "remaining_licenses": 5039,
+        "HE_Fail_next_observed_outcomes": {
+          "HE_Pass": 10908,
+          "HE_Filed": 983,
+          "HE_Hearing": 494,
+          "HE_FailExt": 2557,
+          "HE_Fail": 123,
+          "HE_VolClos": 17,
+          "HE_OutBus": 16,
+          "HE_FAILNOR": 4,
+          "HE_TSOP": 2
+        },
+        "HE_Fail_no_next_in_filtered_log": 99,
+        "HE_Fail_next_is_HE_Pass_gap_days": {
+          "n": 10908,
+          "median": 7.122002314814814,
+          "p10": 6.194579861111111,
+          "p90": 14.045401620370372,
+          "max": 480.93074074074076
+        },
+        "interpretation": "Analytical projection only: bridges HE_NotReq entries; original logs retain all source result codes except DATAERR."
+      },
+      "auditable_fail_to_next_pass_examples": [
+        {
+          "license": "license:112554",
+          "first_event": "event:5fd8bae7c9dd9f8cca332763",
+          "next_event": "event:61372fff5ff18c70b994d7db",
+          "first_time": "2022-04-26T15:45:23Z",
+          "next_time": "2022-05-03T15:04:02Z",
+          "gap_days": 6.971284722222222
+        },
+        {
+          "license": "license:112554",
+          "first_event": "event:99e548392f89b57a71885d1d",
+          "next_event": "event:cd85ffadd9a0c0c1ffc43ff5",
+          "first_time": "2023-02-09T16:06:39Z",
+          "next_time": "2023-02-17T19:30:55Z",
+          "gap_days": 8.141851851851852
+        },
+        {
+          "license": "license:112554",
+          "first_event": "event:07b4e1423a12fc0b611aa8d4",
+          "next_event": "event:832b6a50d75ddc0a48094055",
+          "first_time": "2024-05-08T17:56:35Z",
+          "next_time": "2024-05-13T14:30:39Z",
+          "gap_days": 4.85699074074074
+        },
+        {
+          "license": "license:112554",
+          "first_event": "event:f913c63e62dac453ac8808ec",
+          "next_event": "event:326e9852e819b6fa853a2987",
+          "first_time": "2025-10-23T14:44:58Z",
+          "next_time": "2025-10-30T17:56:07Z",
+          "gap_days": 7.132743055555555
+        },
+        {
+          "license": "license:112567",
+          "first_event": "event:e88983599ab5d990ce9fbb18",
+          "next_event": "event:86f20c4b54c21d5736503f3d",
+          "first_time": "2022-07-11T18:42:47Z",
+          "next_time": "2022-07-18T18:31:22Z",
+          "gap_days": 6.992071759259259
+        }
+      ]
+    },
+    "pm4py": {
+      "version": "2.7.23.11",
+      "status": "pass",
+      "events": 60304,
+      "objects": 239811,
+      "event_object_relations": 340292,
+      "object_object_relations": 279988,
+      "license_dfg_edges": 88,
+      "note": "Import and DFG checks; not a lossless temporal-attribute round trip. PM4Py treats first object observations as baseline attributes."
+    }
+  }
+]
