@@ -1,0 +1,160 @@
+{
+  "help": "https://data.boston.gov/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "accrual_periodicity": "R/P1D",
+    "author": null,
+    "author_email": null,
+    "btype": [
+      "tabular"
+    ],
+    "classification": "",
+    "contact_point": "Inspectional Services Department",
+    "contact_point_email": "ISD@BOSTON.GOV",
+    "contact_point_phone": "",
+    "creator_user_id": "b4739f40-9ca2-4ce4-b26f-69b3ffef3183",
+    "icon_url": "https://patterns.boston.gov/images/global/icons/experiential/food-assistance-.svg",
+    "id": "03693648-2c62-4a2c-a4ec-48de2ee14e18",
+    "isopen": true,
+    "license_id": "odc-pddl",
+    "license_title": "Open Data Commons Public Domain Dedication and License (PDDL)",
+    "license_url": "http://www.opendefinition.org/licenses/odc-pddl",
+    "location": [
+      "all"
+    ],
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2017-01-25T01:42:20.267813",
+    "metadata_modified": "2026-11-01T16:05:44.406398",
+    "name": "food-establishment-inspections",
+    "notes": "The Health Division of the Department of Inspectional Services ensures that all food establishments in the City of Boston meet relevant sanitary codes and standards. Businesses that serve food are inspected at least once a year, and follow-up inspections are performed on high risk establishments. Health inspections are also conducted in response to complaints of unsanitary conditions or illness. This is a legacy dataset containing records of individual inspections and results.",
+    "notes_translated": {
+      "en": "The Health Division of the Department of Inspectional Services ensures that all food establishments in the City of Boston meet relevant sanitary codes and standards. Businesses that serve food are inspected at least once a year, and follow-up inspections are performed on high risk establishments. Health inspections are also conducted in response to complaints of unsanitary conditions or illness. This is a legacy dataset containing records of individual inspections and results."
+    },
+    "num_resources": 1,
+    "num_tags": 6,
+    "open": "",
+    "organization": {
+      "id": "5058717c-c591-4fc1-992e-9b013978c538",
+      "name": "inspectional-services-department-org",
+      "title": "Inspectional Services Department",
+      "type": "organization",
+      "description": "We administer and enforce building, housing, health, sanitation, and safety regulations mandated by City and State governments.\r\n\r\n<br/>\r\n<a href=\"https://www.boston.gov/departments/inspectional-services\" target=\"_blank\">MORE INFO</a>",
+      "image_url": "2020-01-13-192701.720725inspectionalserviceslogo.svg",
+      "created": "2017-01-17T12:08:34.083193",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "5058717c-c591-4fc1-992e-9b013978c538",
+    "private": false,
+    "publisher": "Department of Innovation and Technology",
+    "source": [],
+    "state": "active",
+    "temporal_notes": {
+      "en": "The majority of inspections within the dataset occurred between April 2006 to current."
+    },
+    "theme": [
+      "health"
+    ],
+    "title": "Food Establishment Inspections",
+    "title_translated": {
+      "en": "Food Establishment Inspections"
+    },
+    "type": "dataset",
+    "url": "",
+    "version": null,
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Permitting",
+        "id": "4e3729a8-1794-4c85-8d9a-a5908131cd67",
+        "image_display_url": "https://data.boston.gov/uploads/group/2016-10-05-202951.132631permit160.png",
+        "name": "permitting",
+        "title": "Permitting"
+      }
+    ],
+    "resources": [
+      {
+        "cache_last_updated": null,
+        "cache_url": null,
+        "ckan_url": "https://data.boston.gov",
+        "created": "2017-02-04T00:21:06.939416",
+        "data_dictionary": [],
+        "datastore_active": true,
+        "datastore_contains_all_records_of_source_file": true,
+        "description": "",
+        "description_translated": {},
+        "format": "CSV",
+        "hash": "bff4803046b914a63f88091622ccbb8a",
+        "id": "4582bec6-2b4f-4f9e-bc55-cbaa73117f4c",
+        "ignore_hash": false,
+        "is_data_dict_populated": false,
+        "language": [],
+        "last_modified": "2026-11-01T16:05:44.397430",
+        "metadata_modified": "2026-11-01T16:05:44.411964",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Food Establishment Inspections",
+        "name_translated": {},
+        "original_url": "https://data.boston.gov/dataset/03693648-2c62-4a2c-a4ec-48de2ee14e18/resource/4582bec6-2b4f-4f9e-bc55-cbaa73117f4c/download/tmparwaeerr.csv",
+        "package_id": "03693648-2c62-4a2c-a4ec-48de2ee14e18",
+        "position": 0,
+        "resource_id": "4582bec6-2b4f-4f9e-bc55-cbaa73117f4c",
+        "resource_type": null,
+        "set_url_type": false,
+        "size": null,
+        "state": "active",
+        "task_created": "2026-11-01 16:05:44.497257",
+        "url": "https://data.boston.gov/dataset/03693648-2c62-4a2c-a4ec-48de2ee14e18/resource/4582bec6-2b4f-4f9e-bc55-cbaa73117f4c/download/tmparwaeerr.csv",
+        "url_type": "upload"
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "food",
+        "id": "9077f17a-c095-4ef3-ae34-672769409c94",
+        "name": "food",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "health",
+        "id": "b8b080c5-9e5f-4c2c-915f-dee530b9b4b1",
+        "name": "health",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "inspections",
+        "id": "44779f0c-8354-45f4-af67-e234a7c602ed",
+        "name": "inspections",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "legacy portal",
+        "id": "c4071bc5-bd58-42b8-bd6a-38cd3115ec8e",
+        "name": "legacy portal",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "restaurants",
+        "id": "826951b0-9c34-482d-9c5f-10efe81ccec5",
+        "name": "restaurants",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "violations",
+        "id": "f13f667d-c4b3-4f7a-b4c3-9f5f1f1b07a9",
+        "name": "violations",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  }
+}
