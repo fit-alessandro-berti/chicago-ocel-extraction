@@ -1,0 +1,244 @@
+{
+  "resource_id": "4582bec6-2b4f-4f9e-bc55-cbaa73117f4c",
+  "package_url": "https://data.boston.gov/api/3/action/package_show?id=food-establishment-inspections",
+  "started_at": "2026-11-02T07:14:23.234233+00:00",
+  "finished_at": "2026-11-02T07:15:53.742875+00:00",
+  "total_rows": 907385,
+  "package_sha256": "f9a68e0123254b12fb2de8760891c7e84b3b639f996a615cb001cadb855ea6d2",
+  "metadata_modified": "2026-11-01T16:05:44.406398",
+  "pages": [
+    {
+      "file": "inspections-0000000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=0&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 1,
+      "last_id": 32000,
+      "sha256": "d941d2c215f524ca0479590a94bf5f35c2f40585fced86a33f498e5ac7a6da9c"
+    },
+    {
+      "file": "inspections-0032000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=32000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 32001,
+      "last_id": 64000,
+      "sha256": "9ab300ddc9ca57dfa6ce83275860eca4e85bb8e8f20372f6c593a961ec00371d"
+    },
+    {
+      "file": "inspections-0064000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=64000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 64001,
+      "last_id": 96000,
+      "sha256": "5245e34ce284634dfa022f1879103e2455e6c423aa93a8d043a5245ba3719355"
+    },
+    {
+      "file": "inspections-0096000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=96000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 96001,
+      "last_id": 128000,
+      "sha256": "ed87001f5f44771e197c5a5088f880b64dd580cfb6a00786686924523e768e9b"
+    },
+    {
+      "file": "inspections-0128000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=128000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 128001,
+      "last_id": 160000,
+      "sha256": "2d2ec51c9f7491993249776b0c09917e88847cdc514dd656d89feaa91993c426"
+    },
+    {
+      "file": "inspections-0160000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=160000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 160001,
+      "last_id": 192000,
+      "sha256": "208d988afee5812c128abc50bfaa67587ff7ca08af1c64f3d852b3f08dcb1736"
+    },
+    {
+      "file": "inspections-0192000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=192000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 192001,
+      "last_id": 224000,
+      "sha256": "5a9c3ee2acd09bfcceb57937550631870ddb473eb30ba06f3af7a70eb796340e"
+    },
+    {
+      "file": "inspections-0224000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=224000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 224001,
+      "last_id": 256000,
+      "sha256": "a6f37085d3d2be2c626043534a95aad3538abf692cd985a49536a9810d20c26f"
+    },
+    {
+      "file": "inspections-0256000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=256000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 256001,
+      "last_id": 288000,
+      "sha256": "a803c3adc0c381530e1bfeb1e81a9c7eafbf78c810afceb91494600796082016"
+    },
+    {
+      "file": "inspections-0288000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=288000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 288001,
+      "last_id": 320000,
+      "sha256": "000c0ce457ff93787b4657d77cfe51ffc177977a78a09fee46aa2e40d570e53a"
+    },
+    {
+      "file": "inspections-0320000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=320000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 320001,
+      "last_id": 352000,
+      "sha256": "ffec195cd37c45c2145c8906415eed769b2eb573345715566ddb87fdbfd96fa8"
+    },
+    {
+      "file": "inspections-0352000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=352000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 352001,
+      "last_id": 384000,
+      "sha256": "d6148c10571da15483fe0614c936db9888aee5639cbeb86148eac37d69e137f7"
+    },
+    {
+      "file": "inspections-0384000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=384000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 384001,
+      "last_id": 416000,
+      "sha256": "2af80e47c95c99e1f6b772ca790d55081df56402fdcabc763043f19707f539e3"
+    },
+    {
+      "file": "inspections-0416000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=416000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 416001,
+      "last_id": 448000,
+      "sha256": "2fd5bb2d0e00546b11fb9e26053b7e90909cee54109fa7ed4d277ab766b259b3"
+    },
+    {
+      "file": "inspections-0448000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=448000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 448001,
+      "last_id": 480000,
+      "sha256": "fa3d4b7759721ac7084ac5b43dfdd1a35901b98cbc85c8f459cc74fab3f8dfc6"
+    },
+    {
+      "file": "inspections-0480000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=480000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 480001,
+      "last_id": 512000,
+      "sha256": "5d77e1210e8028e0dcd23472b727636ef69f393f1ba252f5e3401ed94b0079fc"
+    },
+    {
+      "file": "inspections-0512000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=512000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 512001,
+      "last_id": 544000,
+      "sha256": "17414e000b1d1da4ea99f268c0846717e17fb898cf901ee6018833448effa1f4"
+    },
+    {
+      "file": "inspections-0544000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=544000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 544001,
+      "last_id": 576000,
+      "sha256": "aa18af4033ba7068750fc6976b7938b1fcbc4c8ad3b6322752feb4f3fe76858a"
+    },
+    {
+      "file": "inspections-0576000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=576000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 576001,
+      "last_id": 608000,
+      "sha256": "6b6a650b8b50cd1343f63fcf41a0a8314587fec2b16ca038f4ac4338ec67f7e2"
+    },
+    {
+      "file": "inspections-0608000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=608000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 608001,
+      "last_id": 640000,
+      "sha256": "20d667d60ff39b0ea531ced270d27419d77f859b2824d6e58c0840fcdbc54eed"
+    },
+    {
+      "file": "inspections-0640000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=640000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 640001,
+      "last_id": 672000,
+      "sha256": "c89e88cee867b6b43cc0bdfe481bc7c00480e06f5ad265e94728f8e654ba31bf"
+    },
+    {
+      "file": "inspections-0672000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=672000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 672001,
+      "last_id": 704000,
+      "sha256": "6e69aef6d9410016383a9166846512a0d18dd43dddfd5e37f06e9fc41c9a5032"
+    },
+    {
+      "file": "inspections-0704000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=704000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 704001,
+      "last_id": 736000,
+      "sha256": "44e43c4a9f50ed904bf63cfb4465a2b68a9eee976f3e1dc2e12e5d20626ea9f0"
+    },
+    {
+      "file": "inspections-0736000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=736000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 736001,
+      "last_id": 768000,
+      "sha256": "a77b1080c8bbdeab6ff0e4885c2be9bec4dd8aa2929e247a777dadd00148961d"
+    },
+    {
+      "file": "inspections-0768000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=768000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 768001,
+      "last_id": 800000,
+      "sha256": "922f8f85e994804233591919c4333a28f0d61249f6f9c2ac8e184df065b2c3fa"
+    },
+    {
+      "file": "inspections-0800000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=800000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 800001,
+      "last_id": 832000,
+      "sha256": "9e27265ab038acae4cd0de437810fdb03109e89daec733f6c95b613542ff1157"
+    },
+    {
+      "file": "inspections-0832000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=832000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 832001,
+      "last_id": 864000,
+      "sha256": "541e98495ad19156e80e9c04a89d627b685020c8370ea72d4be8a3ccca69abc3"
+    },
+    {
+      "file": "inspections-0864000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=864000&sort=_id+asc",
+      "rows": 32000,
+      "first_id": 864001,
+      "last_id": 896000,
+      "sha256": "107c0587ce8a47bdf3afc02436c781f52af9244a8afe036298e760d6b5669860"
+    },
+    {
+      "file": "inspections-0896000.json.gz",
+      "url": "https://data.boston.gov/api/3/action/datastore_search?resource_id=4582bec6-2b4f-4f9e-bc55-cbaa73117f4c&limit=50000&offset=896000&sort=_id+asc",
+      "rows": 11385,
+      "first_id": 896001,
+      "last_id": 907385,
+      "sha256": "61f7701e8cbbb5bf6ee9b8f2c52ec64a0496b08332eb8af519a3f37a0c5a1883"
+    }
+  ],
+  "consistency": "Exact counts and monotonically increasing row IDs; metadata unchanged. CKAN has no transactional snapshot guarantee."
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://raw.githubusercontent.com/pm4py/pm4py-core/9521745bdbe17cc574f417a850ff6d78b1ffbfcf/tests/input_data/ocel/schema_ocel2.json",
+  "sha256": "55508e4e2b016367f613965b12d131af99eeb3bf9922c45e66b5c189acc20f34",
+  "note": "OCEL 2.0 schema from PM4Py reference implementation; original https://www.ocel-standard.org/2.0/ocel20-schema-json.json returned HTTP 404 on 2026-11-02."
+}
