@@ -76,3 +76,10 @@ quarantined-row provenance, reproducibility instructions, and a process-mining
 quality report. The frozen source metadata identifies the underlying municipal
 dataset's license as the Open Data Commons Public Domain Dedication and License
 (PDDL); the repository's software license is separate.
+
+## Acknowledgements
+
+We thank Wil M.P. van der Aalst (wvdaalst@pads.rwth-aachen.de) and
+Jean-Christophe Schmitt (jean-christophe.schmitt@rwth-aachen.de) for suggesting
+the source data for these event logs. Jean-Christophe Schmitt also performed
+an initial extraction.
