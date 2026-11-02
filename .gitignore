@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local uncompressed OCEL exports in all PM4Py formats
+/exports_uncompressed/
